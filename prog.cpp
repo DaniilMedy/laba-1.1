@@ -8,5 +8,6 @@ int main()
 	scanf_s("%lf", &X0);
 	printf("Enter dX :");
 	scanf_s("%lf", &dX);
+	Pi = atan(1.0) * 4.0
 }
 
