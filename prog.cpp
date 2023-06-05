@@ -16,5 +16,7 @@ int main()
 		X0 += dX;
 	}
 	for (i = 0; i < n; i++)
+		printf("%6.2lf %lf\n", X[i], Y[i]);
+	return 0;
 }
 
