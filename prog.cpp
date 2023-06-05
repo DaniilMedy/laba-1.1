@@ -8,6 +8,13 @@ int main()
 	scanf_s("%lf", &X0);
 	printf("Enter dX :");
 	scanf_s("%lf", &dX);
-	Pi = atan(1.0) * 4.0
+	Pi = atan(1.0) * 4.0;
+	for (i = 0; i < n; i++)
+	{
+		X[i] = X0;
+		Y[i] = sin(X0 * Pi / 180);
+		X0 += dX;
+	}
+	for (i = 0; i < n; i++)
 }
 
